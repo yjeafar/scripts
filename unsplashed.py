@@ -4,12 +4,12 @@ from PIL import Image
 from io import BytesIO
 import shutil, os
 
-path = os.path.join('/home/mayter/Pictures/Wallpapers/')
+path = os.path.join('/home/user/Pictures/Wallpapers/')
 collection = 1262111, 225 # id of collections
 count = 5
 
 def linkFetch():
-    url = f"https://api.unsplash.com/photos/random?client_id=*****={collection}&count={count}"
+    url = f"https://api.unsplash.com/photos/random?client_id=57RF1sx7GLxhly2ZnrusmKwEHci6i5WQTNmAUzhnsAw&collections={collection}&count={count}"
 
     response = requests.get(url)
     pictures=[]

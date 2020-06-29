@@ -1,4 +1,4 @@
 #!/bin/bash
-cd ~/Pictures/Wallpapers
+cd /home/mayter/Pictures/Wallpapers
 mv *resized* ../ResizedWallpapers
 rm ../Wallpapers/*
